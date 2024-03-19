@@ -1,0 +1,78 @@
+@keyframes float {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 5%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.main__clouds svg:nth-child(1) {
+  animation: float 4s infinite;
+}
+
+.main__clouds svg:nth-child(2) {
+  animation: float 4s infinite 0.3s;
+}
+
+.main__clouds svg:nth-child(3) {
+  animation: float 4s infinite 0.5s;
+}
+
+.main__clouds svg:nth-child(4) {
+  animation: float 4s infinite 0.1s;
+}
+
+.pros__bg .cloud:nth-child(1) {
+  animation: float 4s infinite 0.1s;
+}
+
+.pros__bg .cloud:nth-child(2) {
+  animation: float 4s infinite 0.4s;
+}
+
+.pros__bg .cloud:nth-child(3) {
+  animation: float 4s infinite 0.7s;
+  left: 60%;
+}
+
+@keyframes floatY {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -5%;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.window,
+.comment img {
+  animation: floatY 2s infinite;
+}
+
+.comment img {
+  position: relative;
+  display: block;
+  animation: float 2s infinite;
+}
+
+.location-icon {
+  display: block;
+  animation: floatY 2s infinite;
+}
+
+.loc-1 {
+  animation: floatY 2s infinite 0.5s;
+}
+
+.loc-2 {
+  animation: floatY 2s infinite 0.1s;
+}
+
+.loc-3 {
+  animation: floatY 2s infinite 0.7s;
+}/*# sourceMappingURL=animation-static.css.map */

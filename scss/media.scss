@@ -365,7 +365,8 @@ body {
 
 @media (max-width: 559px) {
    #pros .guy {
-      opacity: 0;
+      opacity: 0 !important;
+      display: none;
    }
 }
 @media (max-width: 759px) {

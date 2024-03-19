@@ -115,6 +115,7 @@ body {
    }
    .header__social {
       display: none;
+      opacity: 0;
    }
    .mobile-social {
       margin-top: 2.5rem;
@@ -364,7 +365,7 @@ body {
 
 @media (max-width: 559px) {
    #pros .guy {
-      display: none;
+      opacity: 0;
    }
 }
 @media (max-width: 759px) {
@@ -403,9 +404,11 @@ body {
 @media (max-width: 651px) {
    .start__item-number {
       display: none;
+      opacity: 0;
    }
    #start ul:before {
       display: none;
+      opacity: 0;
    }
 }
 

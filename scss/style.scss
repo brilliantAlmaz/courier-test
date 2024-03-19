@@ -431,6 +431,7 @@ h1 {
 
 .window-wrap {
    position: absolute;
+   z-index: 5;
 }
 
 #start {
@@ -1410,6 +1411,8 @@ textarea {
    }
 }
 .main__btn {
+   margin-top: 2rem;
+   margin-left: 0;
    background: var(--red-main);
    color: var(--white);
 }

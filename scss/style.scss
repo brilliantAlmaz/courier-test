@@ -238,8 +238,11 @@ h1 {
    font-family: var(--font-family);
    font-weight: 300;
    font-size: 24px;
-   line-height: 120%;
+   line-height: 125%;
    color: #000;
+}
+#quest p {
+   line-height: 125%;
 }
 .text_accent {
 }

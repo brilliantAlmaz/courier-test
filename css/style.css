@@ -1181,6 +1181,8 @@ textarea {
 }
 
 .offer__form {
+  position: relative;
+  z-index: 20;
   border-radius: 1.88rem;
   flex: 0 0 35rem;
   padding: 4.125rem 1.5rem 4.5rem;

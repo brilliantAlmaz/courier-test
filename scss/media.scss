@@ -403,6 +403,7 @@ body {
    }
    #start .window-wrap:nth-child(2) {
       right: -10%;
+      top: 40%;
    }
 }
 
@@ -438,6 +439,7 @@ body {
 @media (max-width: 900px) {
    #quest .container .bg {
       opacity: 0;
+      display: none;
    }
    .comment {
       scale: (0.8);
@@ -551,6 +553,17 @@ body {
    #offer {
       padding-top: 3rem;
       padding-bottom: 3rem;
+   }
+   h1 {
+      text-align: center;
+   }
+   #main p {
+      text-align: center;
+   }
+   .main__btn {
+      margin-left: auto;
+      padding-left: 3rem;
+      padding-right: 3rem;
    }
 }
 

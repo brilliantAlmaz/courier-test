@@ -314,7 +314,7 @@ h1 .text_color {
 }
 h1 .text_color:before {
   content: "30 000₸";
-  width: 110%;
+  width: 100%;
   height: 100%;
   position: absolute;
   color: #921514;

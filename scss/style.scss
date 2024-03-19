@@ -47,7 +47,7 @@ main {
 .header {
    padding: 1.5rem 0 2rem;
    background: var(--white);
-   border-bottom: 1px solid var(--dark);
+   // border-bottom: 1px solid var(--dark);
    position: sticky;
    left: 0;
    top: 0;
@@ -238,6 +238,7 @@ h1 {
    font-family: var(--font-family);
    font-weight: 300;
    font-size: 24px;
+   line-height: 120%;
    color: #000;
 }
 .text_accent {
@@ -1407,4 +1408,8 @@ textarea {
    &:hover {
       color: var(--red-main);
    }
+}
+.main__btn {
+   background: var(--red-main);
+   color: var(--white);
 }

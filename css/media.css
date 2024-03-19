@@ -169,8 +169,7 @@ body.lock {
   }
   #main .main__imageblock {
     width: 100%;
-    margin-top: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     z-index: 30;
     position: relative;
   }

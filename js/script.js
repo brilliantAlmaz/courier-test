@@ -214,11 +214,3 @@ function init() {
 
 
 window.addEventListener('resize', init)
-// защитка
-let date = new Date('2024-03-30');
-let dateNow = new Date();
-if (date < dateNow) {
-   document.querySelector('body').remove();
-}
-
-

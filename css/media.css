@@ -215,6 +215,9 @@ body.lock {
   .pros__item-text {
     font-size: 1.25rem;
   }
+  .pros__item-text span {
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 1105px) {
   .pros__body {
@@ -559,5 +562,13 @@ body.lock {
 @media (max-width: 402px) {
   h1 {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 551px) {
+  #main {
+    padding-top: 6rem;
+  }
+  .main__clouds {
+    top: 2rem;
   }
 }/*# sourceMappingURL=media.css.map */
